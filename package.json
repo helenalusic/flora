@@ -10,6 +10,8 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@craco/craco": "^7.1.0",
+    "@nuxtjs/tailwindcss": "^6.12.1",
     "nuxt": "^3.12.4",
     "vue": "latest"
   }

@@ -1,22 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 <template>
-<header>
-        <h2>Dobrodošli u <i>Floru</i></h2>
+    
+<header class="shadow-sm bg-white">
+
 </header>
-<div>
+<section className="grid gap-8">
+<h2 className="mb-2 text-4xl font-medium">Dobrodošli u <i>Floru</i></h2>
+<div class="shadow-sm bg-white">
     <p>Vjerujemo u snagu prirode i njezina iscjeliteljska svojstva. </p>
         <p>Samo najkvalitetniji biljni čajevi i tinkture.</p>
 </div>
-<footer>
-    Kontakt: +385 111 2233
-    florabotanica@gmail.com
-</footer>
+</section>
 </template>
-
+<footer></footer>
 <script setup>
+
 
 </script>
 
 <style scoped>
+
 h2 {
     margin-bottom: 20px;
     font-size: 36px;
