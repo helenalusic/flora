@@ -1,12 +1,17 @@
 module.exports = {
+  content: ['index.vue'],
   mode:'jit',
   purge: [],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'class', // or 'media' or 'class'
   theme: {
     extend: {},
   },
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss'),
+    require('@tailwindcss/deprecation-warnings'),
+    require('autoprefixer'),
+  ],
 }

@@ -1,13 +1,13 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 <template>
     
 <header class="shadow-sm bg-white">
 
 </header>
-<section className="grid gap-8">
+<section className="bg-green-600">
 <h2 className="mb-2 text-4xl font-medium">Dobrodošli u <i>Floru</i></h2>
 <div class="shadow-sm bg-white">
     <p>Vjerujemo u snagu prirode i njezina iscjeliteljska svojstva. </p>
