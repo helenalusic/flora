@@ -4,18 +4,41 @@
 
 <template>
     
-<header class="shadow-sm bg-white">
-
-</header>
-<section className="bg-green-600">
-<h2 className="mb-2 text-4xl font-medium">Dobrodošli u <i>Floru</i></h2>
-<div class="shadow-sm bg-white">
-    <p>Vjerujemo u snagu prirode i njezina iscjeliteljska svojstva. </p>
-        <p>Samo najkvalitetniji biljni čajevi i tinkture.</p>
-</div>
+<section class=" bg-blueGray-200 -mt-24">
+    <div class="container mx-auto px-4">
+        <div class="flex flex-wrap">
+      <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+        <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-1 shadow-lg rounded-lg">
+          <div class="px-4 flex-auto">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flex flex-wrap items-center mt-16">
+      <div class="w-full md:w-5/12 px-4 mr-auto ml-auto">
+       
+        <h3 class="text-3xl mb-2 font-semibold leading-normal">
+         Flora biljni čajevi
+        </h3>
+        <p class="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
+          Nudimo Vam najkvalitetnije biljne čajeve i tinkture domaćeg uzgoja.
+        </p>
+        <p class="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-600">
+          Proizvedeni u vrtovima plodne Slavonije i znanjem naših starih. Dijelovi
+          biljke koji ulaze u čaj pomno su odabrani te se posebno pazi na njihovu kvalitetu.
+        </p>
+        
+      </div>
+      <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
+        <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-2 shadow-lg rounded-lg bg-pink-500">
+          <img alt="..." src="/img/making-tea-3880963542.jpg" class="w-full align-middle rounded-t-lg">
+          
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 </template>
-<footer></footer>
 <script setup>
 
 
