@@ -52,11 +52,12 @@ import emailjs from 'emailjs-com'
 
             </div>
           </div>
+  
         </div>
       </div>
     </div>
+<footer/>
 
-    
   </div>
 </div>
         
@@ -67,8 +68,15 @@ import emailjs from 'emailjs-com'
 </section>
 
 </template>
-<script type="text/javascript">
+<script>
+import footer from '@/layouts/footer.vue';
 
+export default {
+  name: "myApp",
+  components: {
+    footer
+  }
+}
 </script>
 
 <style scoped>
