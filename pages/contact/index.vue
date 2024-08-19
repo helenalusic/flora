@@ -1,23 +1,10 @@
-     <nav class="h-10 bg-gradient-to-r from-green-700 to-green-100">
-            <ul>
-                <li class="text-left"><NuxtLink to="/">Početna  </NuxtLink>
-                <NuxtLink to="/about">O nama  </NuxtLink>
-                <NuxtLink to="/products">Proizvodi </NuxtLink>
-                <NuxtLink to="/gallery">Galerija </NuxtLink>
-                <NuxtLink to="/contacr">Kontaktiraj nas </NuxtLink></li>
-               
-            </ul>
-        </nav>
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+import emailjs from 'emailjs-com' 
 
-<div class="text-left w-25 md:w-50 lg:w-100 h-4/5 bg-green-200 bg-opacity-75">
-        <slot></slot>
-    </div>
-
-Copyright © 2024 - All right reserved by Flora čajevi
-
-contact
 <template>
-    
+  
 <section class=" bg-blueGray-200 -mt-24">
     <div class="container mx-auto px-4">
         <div class="flex flex-wrap">
@@ -78,9 +65,9 @@ contact
     </div>
   </div>
 </section>
-</template>
-<script setup>
 
+</template>
+<script type="text/javascript">
 
 </script>
 

@@ -5,7 +5,10 @@ module.exports = {
   darkMode: 'class', // or 'media' or 'class'
   theme: {
     extend: {
-      
+      backgroundImage: {
+        'bg-pattern': "url('/img/main_bg.jpg')",
+        'footer-texture': "url('/img/footer-texture.png')",
+      }
     },
   },
   variants: {
@@ -16,4 +19,14 @@ module.exports = {
     require('@tailwindcss/deprecation-warnings'),
     require('autoprefixer'),
   ],
+  data() {
+    return {
+      email: ''
+    }
+  },
+  methods: {
+    submit() {
+      this.$emit('submit', this.email)
+    }
+  }
 }

@@ -13,10 +13,10 @@
 		</div>
 		<div class="text-gray-500 order-3 w-full md:w-auto md:order-2">
 			<ul class="flex font-semibold justify-between">
-				<li class="md:px-4 md:py-2 text-green-500"><a href="#">Početna</a></li>
-				<li class="md:px-4 md:py-2 hover:text-green-400"><a href="#">O nama</a></li>
-				<li class="md:px-4 md:py-2 hover:text-green-400"><a href="#">Galerija</a></li>
-				<li class="md:px-4 md:py-2 hover:text-green-400"><a href="#">Kontakt</a></li>
+				<li class="md:px-4 md:py-2 text-green-500"><a href="/">Početna</a></li>
+				<li class="md:px-4 md:py-2 hover:text-green-400"><a href="/about">O nama</a></li>
+				<li class="md:px-4 md:py-2 hover:text-green-400"><a href="/gallery">Galerija</a></li>
+				<li class="md:px-4 md:py-2 hover:text-green-400"><a href="/contact">Kontakt</a></li>
 				
 			</ul>
 		</div>

@@ -12,6 +12,7 @@
   "dependencies": {
     "@craco/craco": "^5.9.0",
     "@nuxtjs/tailwindcss": "^6.12.1",
+    "emailjs-com": "^3.2.0",
     "nuxt": "^3.12.4",
     "vue": "latest"
   },
